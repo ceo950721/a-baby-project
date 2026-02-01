@@ -62,7 +62,3 @@ In this project, I:
 
 
 
-\## Author
-
-Rashi Shukla
-
