@@ -2,11 +2,11 @@
 
 
 
-\# Anime Data Analysis
+# Anime Data Analysis
 
 
 
-\## About This Project
+## About This Project
 
 This project looks at an anime dataset using Python and Jupyter Notebook.  
 
@@ -24,7 +24,7 @@ The work is shared in three formats:
 
 
 
-\## Where the Data Came From
+## Where the Data Came From
 
 The dataset used in this project was downloaded from Kaggle.  
 
@@ -36,7 +36,7 @@ The raw dataset file is not included in this repository and is listed in the `.g
 
 
 
-\## What This Analysis Shows
+## What This Analysis Shows
 
 In this project, I:
 
@@ -50,7 +50,7 @@ In this project, I:
 
 
 
-\## Tools Used
+## Tools Used
 
 \- Python
 
