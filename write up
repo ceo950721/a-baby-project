@@ -1,0 +1,32 @@
+# Project Summary – A Baby Project
+
+## Overview
+
+The purpose of this project was to explore data integration techniques using pandas, with a focus on join operations and data consistency. The project demonstrates how different join types impact dataset results and how compound keys can be used to uniquely identify records across multiple columns.
+
+## Objectives
+
+The main objectives of this project were:
+
+- Understand the difference between `merge()` and `join()` in pandas.
+- Explore different join types (inner, left, right, outer).
+- Learn how to handle compound keys using multiple columns.
+- Prevent accidental data loss during merges.
+- Organize analysis clearly using structured markdown documentation.
+
+## Key Concepts Explored
+
+### 1. Join Types
+We explored:
+- Inner Join (keeps matching rows only)
+- Left Join (keeps all rows from the left dataset)
+- Right Join
+- Outer Join (keeps all rows from both datasets)
+
+A left join was identified as the safest default option because it preserves original data and minimizes unintended row removal.
+
+### 2. Compound Keys
+The project demonstrated how to merge datasets using multiple columns as a unique identifier:
+
+```python
+pd.merge(df1, df2, on=["hero", "media_type"], how="left")
